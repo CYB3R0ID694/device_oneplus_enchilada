@@ -24,6 +24,6 @@ Copyright 2018 - The LineageOS Project.
 ## Build instructions
 ```
 # Compiling
-lunch evolution_enchilada-userdebug (this will auto pull all dependencies)
-m[ake|ka] bacon -jx (where x is the number of jobs to run on parallel threads)
+lunch cherish_enchilada-userdebug (this will auto pull all dependencies)
+brunch enchilada
 ```
