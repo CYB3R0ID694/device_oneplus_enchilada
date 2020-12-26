@@ -30,6 +30,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Gapps
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
+CHERISH_WITHGAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cherish_enchilada
