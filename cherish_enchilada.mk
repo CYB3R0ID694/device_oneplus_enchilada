@@ -32,6 +32,9 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 CHERISH_WITHGAPPS := true
 
+# Official
+CHERISH_BUILD_TYPE:= OFFICIAL
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cherish_enchilada
 PRODUCT_DEVICE := enchilada
