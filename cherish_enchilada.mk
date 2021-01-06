@@ -35,6 +35,10 @@ CHERISH_WITHGAPPS := true
 # Official
 CHERISH_BUILD_TYPE:= OFFICIAL
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.cherish.maintainer=Zahidm
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cherish_enchilada
 PRODUCT_DEVICE := enchilada
