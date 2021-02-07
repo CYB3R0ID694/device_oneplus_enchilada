@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_enchilada.mk
+    $(LOCAL_DIR)/dot_enchilada.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_enchilada-user \
-    cherish_enchilada-userdebug \
-    cherish_enchilada-eng
+    dot_enchilada-user \
+    dot_enchilada-userdebug \
+    dot_enchilada-eng
