@@ -21,23 +21,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from enchilada device
 $(call inherit-product, device/oneplus/enchilada/device.mk)
 
-# Inherit some common CherishOS stuff.
-$(call inherit-product, vendor/dot/config/common_full_phone.mk)
+# Inherit some common DOT-OS stuff.
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Gapps
-#TARGET_GAPPS_ARCH := arm64
-#TARGET_INCLUDE_WIFI_EXT := true
-#CHERISH_WITHGAPPS := true
+TARGET_INCLUDE_WIFI_EXT := true
 
-# Official
-#CHERISH_BUILD_TYPE:= OFFICIAL
-
-# Maintainer
-#PRODUCT_PROPERTY_OVERRIDES += \
-#    ro.cherish.maintainer=Zahidm
+# DOT Include Gapps
+WITH_GAPPS := True
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_enchilada
