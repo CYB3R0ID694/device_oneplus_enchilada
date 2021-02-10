@@ -23,13 +23,14 @@ $(call inherit-product, device/oneplus/enchilada/device.mk)
 
 # Inherit some common DOT-OS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/gms/products/gms.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
-
 TARGET_INCLUDE_WIFI_EXT := true
 
 # DOT Include Gapps
+TARGET_GAPPS_ARCH := arm64
 WITH_GAPPS := True
 
 # Device identifier. This must come after all inclusions.
