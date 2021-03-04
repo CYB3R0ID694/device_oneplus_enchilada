@@ -21,21 +21,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from enchilada device
 $(call inherit-product, device/oneplus/enchilada/device.mk)
 
-# Inherit some common DOT-OS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
-#$(call inherit-product, vendor/gms/products/gms.mk)
+# Inherit some common candy stuff.
+$(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
 # Boot Animation
-TARGET_BOOT_ANIMATION_RES := 1080
+#TARGET_BOOT_ANIMATION_RES := 1080
 
 TARGET_INCLUDE_WIFI_EXT := true
 
-# DOT Include Gapps
-#TARGET_GAPPS_ARCH := arm64
-#WITH_GAPPS := True
-
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_enchilada
+PRODUCT_NAME := candy_enchilada
 PRODUCT_DEVICE := enchilada
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

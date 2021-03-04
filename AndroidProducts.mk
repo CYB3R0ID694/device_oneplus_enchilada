@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_enchilada.mk
+    $(LOCAL_DIR)/candy_enchilada.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_enchilada-user \
-    dot_enchilada-userdebug \
-    dot_enchilada-eng
+    candy_enchilada-user \
+    candy_enchilada-userdebug \
+    candy_enchilada-eng
