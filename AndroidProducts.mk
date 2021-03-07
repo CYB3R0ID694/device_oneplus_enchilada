@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_enchilada.mk
+    $(LOCAL_DIR)/colt_enchilada.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_enchilada-user \
-    evolution_enchilada-userdebug \
-    evolution_enchilada-eng
+    colt_enchilada-user \
+    colt_enchilada-userdebug \
+    colt_enchilada-eng

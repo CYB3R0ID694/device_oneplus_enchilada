@@ -18,12 +18,4 @@ It was released in May 2018.
 
 Copyright 2018 - The LineageOS Project.
 
-![OnePlus 6](https://cdn2.gsmarena.com/vv/pics/oneplus/oneplus-6-5.jpg "OnePlus 6")
-
-
-## Build instructions
-```
-# Compiling
-lunch evolution_enchilada-userdebug (this will auto pull all dependencies)
-m[ake|ka] bacon -jx (where x is the number of jobs to run on parallel threads)
-```
+![OnePlus 6](https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-6-amber-red.jpg "OnePlus 6")
