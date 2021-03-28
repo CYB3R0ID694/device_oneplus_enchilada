@@ -35,6 +35,9 @@ ro.colt.cpu=SDM845
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
+<<<<<<< HEAD:colt_enchilada.mk
+>>>>>>> 0a1acd1... enchilada: Enable arcore & RecorderPrebuilt:dot_enchilada.mk
+=======
 >>>>>>> 0a1acd1... enchilada: Enable arcore & RecorderPrebuilt:dot_enchilada.mk
 
 
