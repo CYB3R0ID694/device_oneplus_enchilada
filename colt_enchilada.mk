@@ -26,10 +26,16 @@ $(call inherit-product, vendor/colt/config/common.mk)
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+<<<<<<< HEAD:colt_enchilada.mk
 # For Device maintainer and CPU Information
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.colt.maintainer=CYB3R0ID694 \
 ro.colt.cpu=SDM845
+=======
+TARGET_INCLUDE_WIFI_EXT := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+>>>>>>> 0a1acd1... enchilada: Enable arcore & RecorderPrebuilt:dot_enchilada.mk
 
 
 # Device identifier. This must come after all inclusions.
