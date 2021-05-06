@@ -23,7 +23,6 @@ $(call inherit-product, device/oneplus/enchilada/device.mk)
 
 # Inherit some common DOT-OS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
-#$(call inherit-product, vendor/gms/products/gms.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -31,10 +30,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
-
-# DOT Include Gapps
-#TARGET_GAPPS_ARCH := arm64
-#WITH_GAPPS := True
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_enchilada
@@ -48,4 +43,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus6-user 8.1.0 OPM1.171019.011 273 release-keys"
 
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys
