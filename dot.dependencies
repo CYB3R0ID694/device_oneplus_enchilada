@@ -1,26 +1,14 @@
 [
   {
-    "repository" : "dotOS-Devices/device_oneplus_enchilada",
-    "target_path": "device/oneplus/enchilada",
-    "branch"     : "dot11",
-    "remote"     : "github"
+    "repository" : "android_device_oneplus_enchilada-common",
+    "target_path": "device/oneplus/sdm845-common"
   },
   {
-    "repository" : "dotOS-Devices/android_device_oneplus_enchilada-common",
-    "target_path": "device/oneplus/sdm845-common",
-    "branch"     : "dot11",
-    "remote"     : "github"
+    "repository" : "android_kernel_oneplus_enchilada",
+    "target_path": "kernel/oneplus/sdm845"
   },
   {
-    "repository" : "dotOS-Devices/android_kernel_oneplus_enchilada",
-    "target_path": "kernel/oneplus/sdm845",
-    "branch"     : "dot11",
-    "remote"     : "github"
-  },
-  {
-    "repository" : "dotOS-Devices/proprietary_vendor_oneplus_enchilada",
-    "target_path": "vendor/oneplus",
-    "branch"     : "dot11"
-    "remote"     : "github"
+    "repository" : "proprietary_vendor_oneplus_enchilada",
+    "target_path": "vendor/oneplus"
   }
 ]
