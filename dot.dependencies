@@ -10,5 +10,10 @@
   {
     "repository" : "proprietary_vendor_oneplus_enchilada",
     "target_path": "vendor/oneplus"
+  },
+  {
+    "repository" : "vendor_addons_oneplus_apps",
+    "target_path": "vendor/addons/oneplus/apps",
+    "remote": "dotos-devices-gitlab"
   }
 ]
