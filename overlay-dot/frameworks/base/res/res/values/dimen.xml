@@ -18,7 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Height of area above QQS where battery/time go -->
-    <dimen name="quick_qs_offset_height">80dp</dimen>
+    <dimen name="quick_qs_offset_height">96dp</dimen>
     <!-- Total height of QQS (quick_qs_offset_height + 128) -->
-    <dimen name="quick_qs_total_height">208dp</dimen>
+    <dimen name="quick_qs_total_height">224dp</dimen>
 </resources>
