@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_enchilada.mk
+    $(LOCAL_DIR)/spark_enchilada.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_enchilada-user \
-    dot_enchilada-userdebug \
-    dot_enchilada-eng
+    spark_enchilada-user \
+    spark_enchilada-userdebug \
+    spark_enchilada-eng

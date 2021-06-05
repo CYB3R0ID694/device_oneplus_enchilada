@@ -24,6 +24,7 @@ Copyright 2018 - The LineageOS Project.
 ## Build instructions
 ```
 # Compiling
-lunch dot_enchilada-userdebug (this will auto pull all dependencies)
-brunch enchilada
+. build/env*
+lunch spark_enchilada-userdebug (this will auto pull all dependencies)
+mka spark -j$(nproc --all)
 ```
