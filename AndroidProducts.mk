@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_enchilada.mk
+    $(LOCAL_DIR)/wave_enchilada.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_enchilada-user \
-    dot_enchilada-userdebug \
-    dot_enchilada-eng
+    wave_enchilada-user \
+    wave_enchilada-userdebug \
+    wave_enchilada-eng
