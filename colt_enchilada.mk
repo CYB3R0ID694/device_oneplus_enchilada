@@ -26,20 +26,14 @@ $(call inherit-product, vendor/colt/config/common.mk)
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-<<<<<<< HEAD:colt_enchilada.mk
 # For Device maintainer and CPU Information
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.colt.maintainer=CYB3R0ID694 \
 ro.colt.cpu=SDM845
-=======
+
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
-<<<<<<< HEAD:colt_enchilada.mk
->>>>>>> 0a1acd1... enchilada: Enable arcore & RecorderPrebuilt:dot_enchilada.mk
-=======
->>>>>>> 0a1acd1... enchilada: Enable arcore & RecorderPrebuilt:dot_enchilada.mk
-
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := colt_enchilada
@@ -53,7 +47,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus6 \
     PRODUCT_NAME=OnePlus6 \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210305.006 7119741 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210605.005 7349499 release-keys"
 
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys
-
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys
