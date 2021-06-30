@@ -22,14 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/enchilada/device.mk)
 
 # Inherit some common ColtOS stuff.
-$(call inherit-product, vendor/colt/config/common.mk)
-
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
+COLT_BUILD_MAINTAINER := CYB3R0ID694
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# For Device maintainer and CPU Information
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.colt.maintainer=CYB3R0ID694 \
-ro.colt.cpu=SDM845
 
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
