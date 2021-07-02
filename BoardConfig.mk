@@ -22,5 +22,8 @@ DEVICE_PATH := device/oneplus/enchilada
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OnePlus6
 
+# Prebuilt recovery ramdisk
+-include device/oneplus/enchilada/recovery/prebuilt_recovery.mk
+
 # inherit from the proprietary version
 -include vendor/oneplus/enchilada/BoardConfigVendor.mk
