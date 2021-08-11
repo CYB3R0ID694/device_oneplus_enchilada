@@ -36,7 +36,7 @@ PRODUCT_NAME := colt_enchilada
 PRODUCT_DEVICE := enchilada
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := 6
+PRODUCT_MODEL := OnePlus 6
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
