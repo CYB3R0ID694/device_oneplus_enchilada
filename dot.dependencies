@@ -2,13 +2,22 @@
   {
     "repository" : "android_device_oneplus_enchilada-common",
     "target_path": "device/oneplus/sdm845-common"
+    "branch":"dot11"
   },
   {
     "repository" : "android_kernel_oneplus_enchilada",
     "target_path": "kernel/oneplus/sdm845"
+    "branch":"dot11"
   },
   {
     "repository" : "proprietary_vendor_oneplus_enchilada",
     "target_path": "vendor/oneplus"
+    "branch":"dot11"
   }
+  {
+    "repository":"vendor_addons_oneplus_apps",
+    "target_path":"vendor/addons/oneplus/apps",
+    "branch":"dot11",
+    "remote":"dotos-devices-gitlab"
+    },
 ]
